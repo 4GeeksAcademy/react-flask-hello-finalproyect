@@ -36,6 +36,7 @@ app.config['JWT_SECRET_KEY'] = 'alejo'
 
 jwt = JWTManager(app)
 
+
 # add the admin
 setup_admin(app)
 
